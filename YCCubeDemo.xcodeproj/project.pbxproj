@@ -13,6 +13,7 @@
 		652EA022230BD99300732908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652EA021230BD99300732908 /* Assets.xcassets */; };
 		652EA025230BD99300732908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652EA023230BD99300732908 /* LaunchScreen.storyboard */; };
 		652EA028230BD99300732908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652EA027230BD99300732908 /* main.m */; };
+		652EA039230BEEC100732908 /* DHVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 652EA037230BEEC100732908 /* DHVector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		652EA024230BD99300732908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652EA026230BD99300732908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652EA027230BD99300732908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		652EA036230BEEC100732908 /* DHVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHVector.h; sourceTree = "<group>"; };
+		652EA037230BEEC100732908 /* DHVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHVector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		652EA017230BD99100732908 /* YCCubeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				652EA036230BEEC100732908 /* DHVector.h */,
+				652EA037230BEEC100732908 /* DHVector.m */,
 				652EA018230BD99100732908 /* AppDelegate.h */,
 				652EA019230BD99100732908 /* AppDelegate.m */,
 				652EA01B230BD99100732908 /* ViewController.h */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652EA039230BEEC100732908 /* DHVector.m in Sources */,
 				652EA01D230BD99100732908 /* ViewController.m in Sources */,
 				652EA028230BD99300732908 /* main.m in Sources */,
 				652EA01A230BD99100732908 /* AppDelegate.m in Sources */,
@@ -288,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EL6V7WM4UN;
 				INFOPLIST_FILE = YCCubeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EL6V7WM4UN;
 				INFOPLIST_FILE = YCCubeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
